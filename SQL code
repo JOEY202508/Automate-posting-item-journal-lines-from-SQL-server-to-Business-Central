@@ -1,0 +1,13 @@
+CREATE TABLE [dbo].[InventoryAdjustments] (
+    [Id] INT IDENTITY(1,1) PRIMARY KEY,
+    [ItemNo] NVARCHAR(20) NOT NULL,
+    [LocationCode] NVARCHAR(10) NULL,
+    [EntryType] NVARCHAR(30) NOT NULL,
+    [Quantity] DECIMAL(18,5) NOT NULL,
+    [UnitOfMeasure] NVARCHAR(10) NULL,
+    [PostingDate] DATE NOT NULL,
+    [DocumentNo] NVARCHAR(30) NULL,
+    [Processed] BIT NOT NULL DEFAULT(0),
+    [ResultMsg] NVARCHAR(200) NULL,
+    [BCId] UNIQUEIDENTIFIER NULL
+);

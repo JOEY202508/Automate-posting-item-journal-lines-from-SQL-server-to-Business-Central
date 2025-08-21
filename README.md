@@ -1,4 +1,4 @@
-# Automate posting item journal lines(SQL server to Business-Central)
+# Automate posting item journal lines(SQL server & Business-Central)
 **1. Project Objective**
 
 Automate the process of posting item journal lines in Dynamics 365 Business Central using data stored in SQL Server and Power Automate Flow.

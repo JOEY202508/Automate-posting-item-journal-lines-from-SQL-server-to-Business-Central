@@ -1,0 +1,1 @@
+# Automate-posting-item-journal-lines-from-SQL-server-to-Business-Central

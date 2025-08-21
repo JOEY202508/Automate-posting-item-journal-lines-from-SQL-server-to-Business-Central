@@ -55,6 +55,8 @@ After the Flow posts Item Journal Lines via the custom API, you can verify the r
    - Review **General Ledger Entries** (if integrated with G/L).
 
 This ensures the end-to-end flow (SQL → Power Automate → BC API → Posting) has successfully updated inventory balances.
+
+ScreenClip:
 <img width="1363" height="371" alt="{2A70760F-1065-4BA2-85C2-61023B0AF89E}" src="https://github.com/user-attachments/assets/968d0917-8d8f-4960-bbc2-39ff790c3646" />
 <img width="618" height="792" alt="{AC75B07E-039A-460C-9AF3-7ABC38D2C313}" src="https://github.com/user-attachments/assets/6aa9c001-7798-4500-a0fb-a9c6cd5b8f07" />
 <img width="1638" height="593" alt="{44CD6134-82C8-4F2F-A3B5-4797D9F594E3}" src="https://github.com/user-attachments/assets/8b34cf15-e313-4e03-b056-d6cbc2759b54" />
